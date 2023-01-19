@@ -11,8 +11,8 @@ const sendEmailResetLink = async (reciever, sender, subject, user, link) => {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: "system0mail0app@gmail.com", // generated ethereal user
-      pass: "gqasubnzykufdwya", // generated ethereal password
+      user: "", // generated ethereal user
+      pass: "", // generated ethereal password
     },
   });
   try {
