@@ -62,8 +62,8 @@ const sendEmailLoanNotif = async (
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: "system0mail0app@gmail.com", // generated ethereal user
-      pass: "gqasubnzykufdwya", // generated ethereal password
+      user: "", // generated ethereal user
+      pass: "", // generated ethereal password
     },
   });
   try {
@@ -140,11 +140,18 @@ const sendEmailRegister = async (reciever, sender, subject, user, pass) => {
 
   // create reusable transporter object using the default SMTP transport
   var transporter = nodemailer.createTransport({
-    host: "smtp.mailtrap.io",
-    port: 2525,
+    // host: "smtp.mailtrap.io",
+    // port: 2525,
+    // auth: {
+    //   user: "",
+    //   pass: "",
+    // },
+    host: "smtp.gmail.com",
+    port: 587,
+    secure: false, // true for 465, false for other ports
     auth: {
-      user: "ad331901838340",
-      pass: "2272b6d3cdeece",
+      user: "", // generated ethereal user
+      pass: "", // generated ethereal password
     },
   });
 
