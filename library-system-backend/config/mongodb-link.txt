@@ -1,0 +1,9 @@
+https://www.practical-mongodb-aggregations.com/examples/joining/multi-one-to-many.html
+https://www.mongodb.com/docs/manual/reference/operator/aggregation/count/
+https://www.mongodb.com/docs/v4.2/reference/operator/aggregation/count/
+https://www.mongodb.com/docs/manual/reference/operator/aggregation/sum/#mongodb-group-grp.-sum
+https://www.mongodb.com/docs/manual/reference/operator/aggregation/lookup/
+https://www.mongodb.com/docs/manual/tutorial/query-arrays/
+https://www.mongodb.com/docs/manual/tutorial/query-embedded-documents/
+https://www.mongodb.com/docs/manual/tutorial/query-documents/
+https://www.mongodb.com/docs/manual/meta/aggregation-quick-reference/

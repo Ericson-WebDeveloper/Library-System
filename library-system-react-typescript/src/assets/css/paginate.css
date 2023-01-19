@@ -1,0 +1,19 @@
+
+.paginate-list ul {
+    display: flex;
+}
+
+.paginate-list ul li a {
+    padding: 5px;
+    font-size: 18px;
+    color: #04306d;
+    font-weight: bolder;
+}
+
+.paginate-list ul li a:hover {
+    background-color: #abdbe3;
+}
+
+.paginate-list ul li.selected {
+    background-color: #abdbe3;
+}

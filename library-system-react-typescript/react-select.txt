@@ -1,0 +1,1 @@
+https://codesandbox.io/s/63696310how-to-use-typescript-with-the-definition-of-custom-styles-for-a-select-using-re-u03nw?file=/src/App.tsx
