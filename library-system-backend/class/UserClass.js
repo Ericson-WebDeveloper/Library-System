@@ -13,8 +13,7 @@ class UserCLass {
     let result = {};
     let User_count = await this.userCount("User", searchInputs);
     // const totalDatas = await User.find({}).count();
-    // https://www.youtube.com/watch?v=ja4yIn2pCzw
-    // https://github.com/TomDoesTech/mongodb-react-pagination/blob/main/server/src/index.js
+
     let startIndex = (pageNumber - 1) * limit;
     const endIndex = (pageNumber + 1) * limit;
     result.totalDatas = User_count;
